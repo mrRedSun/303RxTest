@@ -22,6 +22,12 @@
 		30A24F3A212C09E400CF66C3 /* UserListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A24F38212C09E400CF66C3 /* UserListViewController.xib */; };
 		30A24F3C212C0A4600CF66C3 /* BindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F3B212C0A4600CF66C3 /* BindableType.swift */; };
 		30A24F3E212C0F4D00CF66C3 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F3D212C0F4D00CF66C3 /* UserListViewModel.swift */; };
+		30A24F40212C31CB00CF66C3 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F3F212C31CB00CF66C3 /* UserService.swift */; };
+		30A24F45212C32D500CF66C3 /* UserServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F44212C32D500CF66C3 /* UserServiceType.swift */; };
+		30A24F48212C339000CF66C3 /* RemoteUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F47212C339000CF66C3 /* RemoteUserModel.swift */; };
+		30A24F4A212C33A500CF66C3 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F49212C33A500CF66C3 /* UserModel.swift */; };
+		30A24F4C212C342300CF66C3 /* RemoteModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F4B212C342300CF66C3 /* RemoteModelType.swift */; };
+		30A24F4F212C355800CF66C3 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F4E212C355800CF66C3 /* Endpoints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +47,12 @@
 		30A24F38212C09E400CF66C3 /* UserListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListViewController.xib; sourceTree = "<group>"; };
 		30A24F3B212C0A4600CF66C3 /* BindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableType.swift; sourceTree = "<group>"; };
 		30A24F3D212C0F4D00CF66C3 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		30A24F3F212C31CB00CF66C3 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		30A24F44212C32D500CF66C3 /* UserServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceType.swift; sourceTree = "<group>"; };
+		30A24F47212C339000CF66C3 /* RemoteUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteUserModel.swift; sourceTree = "<group>"; };
+		30A24F49212C33A500CF66C3 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		30A24F4B212C342300CF66C3 /* RemoteModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteModelType.swift; sourceTree = "<group>"; };
+		30A24F4E212C355800CF66C3 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		7FCF15FFA03C7FCD194586AA /* Pods_303TestRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_303TestRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB8C9B4026B41D5F1AA0164 /* Pods-303TestRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-303TestRxSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-303TestRxSwift/Pods-303TestRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		C3542777A942D8E3867F1D71 /* Pods-303TestRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-303TestRxSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-303TestRxSwift/Pods-303TestRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +91,8 @@
 		30A24F08212BF0B300CF66C3 /* 303TestRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				30A24F4D212C351B00CF66C3 /* Helpers */,
+				30A24F41212C31DD00CF66C3 /* Models */,
 				30A24F21212BF17E00CF66C3 /* Coordinator */,
 				30A24F20212BF17600CF66C3 /* Protocols */,
 				30A24F1F212BF11700CF66C3 /* Services */,
@@ -87,8 +101,6 @@
 				30A24F1B212BF0FD00CF66C3 /* ViewModels */,
 				30A24F09212BF0B300CF66C3 /* AppDelegate.swift */,
 				30A24F22212BF6C700CF66C3 /* App.swift */,
-				30A24F10212BF0B300CF66C3 /* Assets.xcassets */,
-				30A24F12212BF0B300CF66C3 /* LaunchScreen.storyboard */,
 				30A24F15212BF0B300CF66C3 /* Info.plist */,
 			);
 			path = 303TestRxSwift;
@@ -114,6 +126,8 @@
 		30A24F1E212BF11600CF66C3 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				30A24F10212BF0B300CF66C3 /* Assets.xcassets */,
+				30A24F12212BF0B300CF66C3 /* LaunchScreen.storyboard */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -121,6 +135,7 @@
 		30A24F1F212BF11700CF66C3 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				30A24F3F212C31CB00CF66C3 /* UserService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -128,8 +143,10 @@
 		30A24F20212BF17600CF66C3 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				30A24F43212C32C900CF66C3 /* Services */,
 				30A24F2E212C078600CF66C3 /* ViewModeling */,
 				30A24F2C212C074C00CF66C3 /* CoordinatorType.swift */,
+				30A24F4B212C342300CF66C3 /* RemoteModelType.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -152,6 +169,47 @@
 				30A24F3B212C0A4600CF66C3 /* BindableType.swift */,
 			);
 			path = ViewModeling;
+			sourceTree = "<group>";
+		};
+		30A24F41212C31DD00CF66C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30A24F46212C331F00CF66C3 /* Domain Models */,
+				30A24F42212C31E400CF66C3 /* Remote Models */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30A24F42212C31E400CF66C3 /* Remote Models */ = {
+			isa = PBXGroup;
+			children = (
+				30A24F47212C339000CF66C3 /* RemoteUserModel.swift */,
+			);
+			path = "Remote Models";
+			sourceTree = "<group>";
+		};
+		30A24F43212C32C900CF66C3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				30A24F44212C32D500CF66C3 /* UserServiceType.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		30A24F46212C331F00CF66C3 /* Domain Models */ = {
+			isa = PBXGroup;
+			children = (
+				30A24F49212C33A500CF66C3 /* UserModel.swift */,
+			);
+			path = "Domain Models";
+			sourceTree = "<group>";
+		};
+		30A24F4D212C351B00CF66C3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				30A24F4E212C355800CF66C3 /* Endpoints.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		BBE39A3EB6B3A4E499A91D43 /* Pods */ = {
@@ -307,15 +365,21 @@
 			files = (
 				30A24F2D212C074C00CF66C3 /* CoordinatorType.swift in Sources */,
 				30A24F3E212C0F4D00CF66C3 /* UserListViewModel.swift in Sources */,
+				30A24F4F212C355800CF66C3 /* Endpoints.swift in Sources */,
 				30A24F29212C071400CF66C3 /* Coordinator.swift in Sources */,
 				30A24F30212C079500CF66C3 /* UserListViewModeling.swift in Sources */,
 				30A24F0A212BF0B300CF66C3 /* AppDelegate.swift in Sources */,
+				30A24F45212C32D500CF66C3 /* UserServiceType.swift in Sources */,
 				30A24F3C212C0A4600CF66C3 /* BindableType.swift in Sources */,
 				30A24F2A212C071400CF66C3 /* Scene+ViewController.swift in Sources */,
 				30A24F39212C09E400CF66C3 /* UserListViewController.swift in Sources */,
+				30A24F40212C31CB00CF66C3 /* UserService.swift in Sources */,
+				30A24F48212C339000CF66C3 /* RemoteUserModel.swift in Sources */,
 				30A24F23212BF6C700CF66C3 /* App.swift in Sources */,
 				30A24F28212C071400CF66C3 /* Scene.swift in Sources */,
+				30A24F4A212C33A500CF66C3 /* UserModel.swift in Sources */,
 				30A24F2B212C071400CF66C3 /* SceneTransitionType.swift in Sources */,
+				30A24F4C212C342300CF66C3 /* RemoteModelType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -45,6 +45,7 @@ final class App {
             .inObjectScope(.container)
         
         iocContainer.autoregister(UserListViewModeling.self, initializer: UserListViewModel.init)
+        iocContainer.autoregister(UserServiceType.self, initializer: UserService.init).inObjectScope(.container)
     }
     
     private func determineAppStart() {
