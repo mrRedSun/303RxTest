@@ -11,6 +11,17 @@
 		30A24F0A212BF0B300CF66C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F09212BF0B300CF66C3 /* AppDelegate.swift */; };
 		30A24F11212BF0B300CF66C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A24F10212BF0B300CF66C3 /* Assets.xcassets */; };
 		30A24F14212BF0B300CF66C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A24F12212BF0B300CF66C3 /* LaunchScreen.storyboard */; };
+		30A24F23212BF6C700CF66C3 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F22212BF6C700CF66C3 /* App.swift */; };
+		30A24F28212C071400CF66C3 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F24212C071400CF66C3 /* Scene.swift */; };
+		30A24F29212C071400CF66C3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F25212C071400CF66C3 /* Coordinator.swift */; };
+		30A24F2A212C071400CF66C3 /* Scene+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F26212C071400CF66C3 /* Scene+ViewController.swift */; };
+		30A24F2B212C071400CF66C3 /* SceneTransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F27212C071400CF66C3 /* SceneTransitionType.swift */; };
+		30A24F2D212C074C00CF66C3 /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F2C212C074C00CF66C3 /* CoordinatorType.swift */; };
+		30A24F30212C079500CF66C3 /* UserListViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F2F212C079500CF66C3 /* UserListViewModeling.swift */; };
+		30A24F39212C09E400CF66C3 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F37212C09E400CF66C3 /* UserListViewController.swift */; };
+		30A24F3A212C09E400CF66C3 /* UserListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A24F38212C09E400CF66C3 /* UserListViewController.xib */; };
+		30A24F3C212C0A4600CF66C3 /* BindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F3B212C0A4600CF66C3 /* BindableType.swift */; };
+		30A24F3E212C0F4D00CF66C3 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A24F3D212C0F4D00CF66C3 /* UserListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		30A24F10212BF0B300CF66C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30A24F13212BF0B300CF66C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30A24F15212BF0B300CF66C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A24F22212BF6C700CF66C3 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		30A24F24212C071400CF66C3 /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		30A24F25212C071400CF66C3 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		30A24F26212C071400CF66C3 /* Scene+ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Scene+ViewController.swift"; sourceTree = "<group>"; };
+		30A24F27212C071400CF66C3 /* SceneTransitionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneTransitionType.swift; sourceTree = "<group>"; };
+		30A24F2C212C074C00CF66C3 /* CoordinatorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
+		30A24F2F212C079500CF66C3 /* UserListViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModeling.swift; sourceTree = "<group>"; };
+		30A24F37212C09E400CF66C3 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		30A24F38212C09E400CF66C3 /* UserListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListViewController.xib; sourceTree = "<group>"; };
+		30A24F3B212C0A4600CF66C3 /* BindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableType.swift; sourceTree = "<group>"; };
+		30A24F3D212C0F4D00CF66C3 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
 		7FCF15FFA03C7FCD194586AA /* Pods_303TestRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_303TestRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB8C9B4026B41D5F1AA0164 /* Pods-303TestRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-303TestRxSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-303TestRxSwift/Pods-303TestRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		C3542777A942D8E3867F1D71 /* Pods-303TestRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-303TestRxSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-303TestRxSwift/Pods-303TestRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,6 +86,7 @@
 				30A24F1D212BF11400CF66C3 /* Views */,
 				30A24F1B212BF0FD00CF66C3 /* ViewModels */,
 				30A24F09212BF0B300CF66C3 /* AppDelegate.swift */,
+				30A24F22212BF6C700CF66C3 /* App.swift */,
 				30A24F10212BF0B300CF66C3 /* Assets.xcassets */,
 				30A24F12212BF0B300CF66C3 /* LaunchScreen.storyboard */,
 				30A24F15212BF0B300CF66C3 /* Info.plist */,
@@ -74,6 +97,7 @@
 		30A24F1B212BF0FD00CF66C3 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				30A24F3D212C0F4D00CF66C3 /* UserListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -81,6 +105,8 @@
 		30A24F1D212BF11400CF66C3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				30A24F37212C09E400CF66C3 /* UserListViewController.swift */,
+				30A24F38212C09E400CF66C3 /* UserListViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -102,6 +128,8 @@
 		30A24F20212BF17600CF66C3 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				30A24F2E212C078600CF66C3 /* ViewModeling */,
+				30A24F2C212C074C00CF66C3 /* CoordinatorType.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -109,8 +137,21 @@
 		30A24F21212BF17E00CF66C3 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				30A24F25212C071400CF66C3 /* Coordinator.swift */,
+				30A24F24212C071400CF66C3 /* Scene.swift */,
+				30A24F26212C071400CF66C3 /* Scene+ViewController.swift */,
+				30A24F27212C071400CF66C3 /* SceneTransitionType.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		30A24F2E212C078600CF66C3 /* ViewModeling */ = {
+			isa = PBXGroup;
+			children = (
+				30A24F2F212C079500CF66C3 /* UserListViewModeling.swift */,
+				30A24F3B212C0A4600CF66C3 /* BindableType.swift */,
+			);
+			path = ViewModeling;
 			sourceTree = "<group>";
 		};
 		BBE39A3EB6B3A4E499A91D43 /* Pods */ = {
@@ -191,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30A24F14212BF0B300CF66C3 /* LaunchScreen.storyboard in Resources */,
+				30A24F3A212C09E400CF66C3 /* UserListViewController.xib in Resources */,
 				30A24F11212BF0B300CF66C3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +305,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A24F2D212C074C00CF66C3 /* CoordinatorType.swift in Sources */,
+				30A24F3E212C0F4D00CF66C3 /* UserListViewModel.swift in Sources */,
+				30A24F29212C071400CF66C3 /* Coordinator.swift in Sources */,
+				30A24F30212C079500CF66C3 /* UserListViewModeling.swift in Sources */,
 				30A24F0A212BF0B300CF66C3 /* AppDelegate.swift in Sources */,
+				30A24F3C212C0A4600CF66C3 /* BindableType.swift in Sources */,
+				30A24F2A212C071400CF66C3 /* Scene+ViewController.swift in Sources */,
+				30A24F39212C09E400CF66C3 /* UserListViewController.swift in Sources */,
+				30A24F23212BF6C700CF66C3 /* App.swift in Sources */,
+				30A24F28212C071400CF66C3 /* Scene.swift in Sources */,
+				30A24F2B212C071400CF66C3 /* SceneTransitionType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
