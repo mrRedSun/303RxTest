@@ -12,6 +12,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserListViewController" customModule="_03TestRxSwift" customModuleProvider="target">
             <connections>
+                <outlet property="userCountLabel" destination="8Zk-Qf-8vq" id="4Hk-Hp-YtO"/>
+                <outlet property="userCountSlider" destination="sSF-l1-opP" id="Iao-Lr-hpn"/>
+                <outlet property="usersTableView" destination="PfP-XT-Tt3" id="dVU-o3-gmb"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
