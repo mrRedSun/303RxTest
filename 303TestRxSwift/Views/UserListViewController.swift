@@ -25,6 +25,11 @@ class UserListViewController: UIViewController, BindableVcType {
     var disposeBag = DisposeBag()
     
     func bindViewModel() {
+        viewModel.userSectionSource.subscribe(onError: {
+            self.makeAlert($0.localizedDescription)
+            print($0)
+        }).disposed(by: disposeBag)
+        
         userCountSlider.rx.value
             .map { Int($0.rounded()) }
             .bind(to: viewModel.numberOfUsers)
@@ -55,7 +60,10 @@ class UserListViewController: UIViewController, BindableVcType {
             return cell!
         })
         
-        viewModel.userSectionSource.bind(to: usersTableView.rx.items(dataSource: dataSourse)).disposed(by: disposeBag)
+        viewModel.userSectionSource
+            .asDriver(onErrorJustReturn: [])
+            .drive(usersTableView.rx.items(dataSource: dataSourse))
+            .disposed(by: disposeBag)
     }
     
     override func viewDidLoad() {
