@@ -7,7 +7,13 @@
 //
 
 import Foundation
-
+import RxCocoa
+import RxSwift
+import RxDataSources
 protocol UserListViewModeling {
+    typealias SectionModel = AnimatableSectionModel<String, UserModel>
     
+    var numberOfUsers: PublishRelay<Int> { get }
+    var userSectionSource: Observable<[SectionModel]> { get }
+    var isBusySubject: PublishSubject<Bool> { get }
 }

@@ -7,9 +7,23 @@
 //
 
 import Foundation
+import RxDataSources
 
 class UserModel {
     var firstName: String?
     var lastName: String?
     var city: String?
+}
+
+extension UserModel: Equatable, IdentifiableType {
+    var identity: String {
+        get {
+            return firstName! + lastName! + city!
+        }
+    }
+    static func == (lhs: UserModel, rhs: UserModel) -> Bool {
+        return lhs.firstName! > rhs.firstName!
+    }
+
+
 }
